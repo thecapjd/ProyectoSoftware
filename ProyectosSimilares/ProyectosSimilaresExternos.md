@@ -42,7 +42,7 @@
 - **API Gateway** para interoperabilidad con sistemas bancarios mediante **REST** y **gRPC**.
 - **Rendimiento optimizado**: respuesta en menos de 100 ms y capacidad para manejar un millón de transacciones diarias.
 - **Tecnologías**: Spring Boot, Spring Cloud, Eureka, Keycloak, Docker, OAuth2.
-- [https://doi.org/10.56048/MQR20225.9.1.2025.e189](https://doi.org/10.56048/MQR20225.9.1.2025.e189)
+- [https://rdu.iua.edu.ar/handle/123456789/1129](https://rdu.iua.edu.ar/handle/123456789/1129)
 
 ---
 
