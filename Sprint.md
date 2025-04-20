@@ -1,4 +1,4 @@
-# Sprint Plan de 8 Semanas
+# Planificacion de 8 Semanas
 ## Sistema de Mensajería en Tiempo Real con WebSockets y Encriptación E2E
 
 ### Semana 1: Planificación y Preparación
