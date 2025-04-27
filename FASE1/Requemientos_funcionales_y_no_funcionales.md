@@ -64,3 +64,47 @@
 - **RNF5.1**: Arquitectura que permita escalar horizontalmente.  
 - **RNF5.2**: Diseño modular que facilite futuras expansiones.  
 - **RNF5.3**: Uso de balanceadores de carga para distribuir el tráfico.  
+
+---
+
+## 🔄 Matriz de Trazabilidad
+
+Esta matriz establece la relación entre los Requisitos Funcionales (RF) y los Requisitos No Funcionales (RNF), permitiendo verificar que cada requisito funcional está respaldado por los requisitos no funcionales correspondientes.
+
+| RF / RNF | RNF1.1<br>Tiempo<br>entrega | RNF1.2<br>Usuarios<br>concurrentes | RNF1.3<br>Recursos<br>cliente | RNF2.1<br>AES-256 | RNF2.2<br>RSA-2048 | RNF2.3<br>OWASP | RNF2.4<br>Protección<br>ataques | RNF3.1<br>Disponibilidad | RNF3.2<br>Recuperación | RNF3.3<br>Offline | RNF4.1<br>Interfaz<br>intuitiva | RNF4.2<br>Navegadores | RNF4.3<br>Tiempo<br>respuesta | RNF5.1<br>Escala<br>horizontal | RNF5.2<br>Modular | RNF5.3<br>Balanceo |
+|----------|-----------|------------|----------|---------|---------|---------|------------|--------------|-------------|----------|----------|-------------|------------|------------|---------|---------|
+| RF1.1    |           |     ✓      |          |         |         |    ✓    |     ✓      |      ✓       |      ✓      |          |          |      ✓      |            |      ✓     |    ✓    |    ✓    |
+| RF1.2    |           |     ✓      |          |         |    ✓    |    ✓    |     ✓      |      ✓       |      ✓      |          |          |      ✓      |            |      ✓     |    ✓    |         |
+| RF1.3    |           |            |    ✓     |         |         |    ✓    |            |      ✓       |             |          |    ✓     |      ✓      |     ✓      |            |    ✓    |         |
+| RF1.4    |           |     ✓      |          |         |         |    ✓    |            |      ✓       |             |          |    ✓     |      ✓      |     ✓      |      ✓     |    ✓    |    ✓    |
+| RF2.1    |     ✓     |     ✓      |    ✓     |    ✓    |    ✓    |         |     ✓      |      ✓       |      ✓      |    ✓     |    ✓     |      ✓      |     ✓      |      ✓     |    ✓    |    ✓    |
+| RF2.2    |     ✓     |     ✓      |    ✓     |         |         |         |            |      ✓       |      ✓      |    ✓     |    ✓     |      ✓      |     ✓      |      ✓     |    ✓    |    ✓    |
+| RF2.3    |           |     ✓      |    ✓     |         |         |         |            |      ✓       |      ✓      |          |    ✓     |      ✓      |     ✓      |      ✓     |    ✓    |    ✓    |
+| RF2.4    |     ✓     |     ✓      |          |         |         |         |            |      ✓       |      ✓      |    ✓     |          |      ✓      |            |      ✓     |    ✓    |    ✓    |
+| RF3.1    |           |            |    ✓     |    ✓    |    ✓    |    ✓    |     ✓      |      ✓       |      ✓      |    ✓     |          |      ✓      |            |            |    ✓    |         |
+| RF3.2    |           |     ✓      |    ✓     |    ✓    |    ✓    |    ✓    |     ✓      |      ✓       |      ✓      |    ✓     |          |      ✓      |            |      ✓     |    ✓    |         |
+| RF3.3    |           |            |    ✓     |    ✓    |    ✓    |    ✓    |     ✓      |              |             |    ✓     |          |      ✓      |            |            |    ✓    |         |
+| RF3.4    |           |            |    ✓     |    ✓    |    ✓    |    ✓    |     ✓      |      ✓       |             |          |    ✓     |      ✓      |     ✓      |            |    ✓    |         |
+| RF4.1    |           |            |    ✓     |         |         |         |            |              |             |          |    ✓     |      ✓      |     ✓      |            |    ✓    |         |
+| RF4.2    |     ✓     |            |    ✓     |         |         |         |            |              |             |          |    ✓     |      ✓      |     ✓      |            |    ✓    |         |
+| RF4.3    |     ✓     |     ✓      |    ✓     |         |         |         |            |      ✓       |      ✓      |    ✓     |    ✓     |      ✓      |     ✓      |      ✓     |    ✓    |    ✓    |
+| RF4.4    |           |            |    ✓     |         |         |         |            |              |             |          |    ✓     |      ✓      |     ✓      |            |    ✓    |         |
+
+### 📊 Análisis de la Matriz de Trazabilidad
+
+1. **Cobertura de requisitos**: Todos los requisitos funcionales están respaldados por múltiples requisitos no funcionales, asegurando que cada funcionalidad cumpla con los estándares de calidad definidos.
+
+2. **Áreas críticas**: 
+   - La mensajería en tiempo real (RF2.1) y las notificaciones (RF4.3) son las funcionalidades que más requisitos no funcionales impactan.
+   - Los requisitos de seguridad están fuertemente vinculados a la encriptación de mensajes (RF3.1-RF3.4).
+
+3. **Dependencias principales**:
+   - El rendimiento (RNF1.x) afecta principalmente a las funcionalidades de mensajería.
+   - La usabilidad (RNF4.x) impacta casi todas las funcionalidades de interfaz.
+   - La escalabilidad (RNF5.x) es crucial para las funcionalidades que involucran múltiples usuarios simultáneos.
+
+4. **Potenciales riesgos**:
+   - Funcionalidades como la autenticación de dos factores (RF1.2) tienen alta dependencia de requisitos de seguridad.
+   - El funcionamiento offline (RNF3.3) afecta a varios requisitos funcionales y debe gestionarse adecuadamente.
+
+Esta matriz servirá como herramienta fundamental durante el desarrollo para asegurar que todas las implementaciones técnicas satisfagan tanto los requisitos funcionales como los no funcionales relacionados.
