@@ -41,26 +41,10 @@
 
 ---
 
-## 🧰 Fase 3: Preparación del Entorno de Desarrollo
 
-### 🎯 Objetivos:
-- Configurar las herramientas de desarrollo.
-- Preparar el entorno de trabajo colaborativo.
-
-### 📄 Entregables:
-- Repositorio Git inicializado.
-- Node.js, MongoDB y dependencias instaladas.
-- Proyecto estructurado (carpetas y configuraciones base).
-
-### ✅ Actividades:
-- Instalación de Node.js, MongoDB, VSCode y Git.
-- Creación del repositorio y branches.
-- Configuración base del backend y frontend.
-- Instalación de librerías clave (Express, Socket.io, React, etc.).
-
----
 
 ## 🌐 Fase 4: Desarrollo del Backend
+
 
 ### 🎯 Objetivos:
 - Implementar servidor WebSocket y lógica del backend.
@@ -79,7 +63,10 @@
 
 ---
 
+
+
 ## 🔐 Fase 5: Implementación de Encriptación E2E
+
 
 ### 🎯 Objetivos:
 - Asegurar la privacidad mediante cifrado de extremo a extremo.
@@ -98,7 +85,10 @@
 
 ---
 
+
+
 ## 🖥️ Fase 6: Desarrollo del Frontend
+
 
 ### 🎯 Objetivos:
 - Crear la interfaz del usuario usando React.
