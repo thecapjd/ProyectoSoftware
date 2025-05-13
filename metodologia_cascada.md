@@ -41,10 +41,7 @@
 
 ---
 
-
-
-## 🌐 Fase 4: Desarrollo del Backend
-
+## 🌐 Fase 3: Desarrollo del Backend
 
 ### 🎯 Objetivos:
 - Implementar servidor WebSocket y lógica del backend.
@@ -63,10 +60,7 @@
 
 ---
 
-
-
-## 🔐 Fase 5: Implementación de Encriptación E2E
-
+## 🔐 Fase 4: Implementación de Encriptación E2E
 
 ### 🎯 Objetivos:
 - Asegurar la privacidad mediante cifrado de extremo a extremo.
@@ -85,10 +79,7 @@
 
 ---
 
-
-
-## 🖥️ Fase 6: Desarrollo del Frontend
-
+## 🖥️ Fase 5: Desarrollo del Frontend
 
 ### 🎯 Objetivos:
 - Crear la interfaz del usuario usando React.
@@ -104,6 +95,25 @@
 - Implementación de hooks y contextos para autenticación.
 - Envío y recepción de mensajes cifrados.
 - Integración completa con WebSockets y backend.
+
+---
+
+## 🚀 Fase 6: Optimización y Características Avanzadas
+
+### 🎯 Objetivos:
+- Mejorar el rendimiento del sistema.
+- Implementar funcionalidades avanzadas.
+
+### 📄 Entregables:
+- Sistema de notificaciones en tiempo real.
+- Funcionalidad de archivos adjuntos cifrados.
+- Optimización de rendimiento en dispositivos móviles.
+
+### ✅ Actividades:
+- Implementación de notificaciones push.
+- Desarrollo del sistema de carga y descarga de archivos con cifrado.
+- Optimización de carga y rendimiento.
+- Incorporación de funcionalidades sociales (estados, visto por última vez).
 
 ---
 
