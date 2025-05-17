@@ -54,7 +54,6 @@
 ### ✅ Actividades:
 - Implementación del servidor con FastAPI.
 - Configuración y manejo de WebSockets (conexión, desconexión, eventos).
-- Registro e inicio de sesión de usuarios (JWT).
 - Persistencia de mensajes en MongoDB.
 
 ---
