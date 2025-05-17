@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat en Tiempo Real con Socket.io</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="user-info">
+                <h3>Perfil</h3>
+                <div id="login-form">
+                    <input type="text" id="username-input" placeholder="Nombre de usuario">
+                    <button id="login-btn">Conectar</button>
+                </div>
+                <div id="user-profile" class="hidden">
+                    <p>Conectado como: <span id="username-display"></span></p>
+                </div>
+            </div>
+            
+            <div class="room-section">
+                <h3>Salas</h3>
+                <div class="room-join">
+                    <input type="text" id="room-input" placeholder="Nombre de la sala">
+                    <button id="join-btn">Unirse</button>
+                </div>
+                <div class="current-room">
+                    <p>Sala actual: <span id="current-room">Ninguna</span></p>
+                </div>
+            </div>
+            
+            <div class="users-section">
+                <h3>Usuarios en la sala</h3>
+                <ul id="users-list"></ul>
+            </div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Chat en Tiempo Real</h2>
+            </div>
+            
+            <div class="chat-messages" id="messages"></div>
+            
+            <div class="typing-indicator" id="typing-indicator"></div>
+            
+            <div class="chat-form-container">
+                <form id="chat-form">
+                    <input id="message-input" type="text" placeholder="Escribe un mensaje..." autocomplete="off">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
