@@ -55,8 +55,7 @@
 ### ✅ Actividades:
 - Implementación del servidor con Express.
 - Configuración y manejo de WebSockets (conexión, desconexión, eventos).
-- Registro e inicio de sesión de usuarios (JWT).
-- Persistencia de mensajes en MongoDB.
+- Persistencia de mensajes en MongoDB u otro server compatible.
 
 ---
 
