@@ -48,12 +48,11 @@
 - Gestionar usuarios, salas y mensajes.
 
 ### 📄 Entregables:
-- API con Express y autenticación con JWT.
 - Gestión de conexiones en tiempo real con Socket.io.
 - Funcionalidad de salas y estructura de datos.
 
 ### ✅ Actividades:
-- Implementación del servidor con Express.
+- Implementación del servidor con FastAPI.
 - Configuración y manejo de WebSockets (conexión, desconexión, eventos).
 - Registro e inicio de sesión de usuarios (JWT).
 - Persistencia de mensajes en MongoDB.
