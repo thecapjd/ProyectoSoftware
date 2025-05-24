@@ -48,7 +48,7 @@
 - Gestionar usuarios, salas y mensajes.
 
 ### 📄 Entregables:
-- API con Express y autenticación con JWT.
+- API con Express
 - Gestión de conexiones en tiempo real con Socket.io.
 - Funcionalidad de salas y estructura de datos.
 
