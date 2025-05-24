@@ -101,17 +101,19 @@
 ### 🎯 Objetivos:
 - Mejorar el rendimiento del sistema.
 - Implementar funcionalidades avanzadas.
+- Colocar la red de comunicación mediante internet
 
 ### 📄 Entregables:
 - Sistema de notificaciones en tiempo real.
 - Funcionalidad de archivos adjuntos cifrados.
 - Optimización de rendimiento en dispositivos móviles.
+- Conexión desde puntos remotos.
 
 ### ✅ Actividades:
 - Implementación de notificaciones push.
 - Desarrollo del sistema de carga y descarga de archivos con cifrado.
 - Optimización de carga y rendimiento.
-- Incorporación de funcionalidades sociales (estados, visto por última vez).
+- Se agrega conexión a internet
 
 ---
 
