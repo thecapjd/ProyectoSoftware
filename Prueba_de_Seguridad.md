@@ -115,4 +115,5 @@ Según el último reporte de ejecución:
 
 **Análisis del fallo**: El informe indica un fallo en el test suite, específicamente que "Server is not running". Esto sugiere un problema en el setup o teardown del servidor durante la ejecución de las pruebas, o que la aplicación principal no estaba iniciada o accesible para las pruebas de integración. A pesar de que los 5 tests individuales pasaron (lo que valida la lógica de registro, login, y generación de Chat ID), el entorno de pruebas de integración no pudo ejecutar completamente la suite debido a que el servidor no estaba activo para las pruebas.
 
-**Recomendación**: Investigar la configuración del `server.js` y `server.test.js` para asegurar que el servidor se levante y se cierre correctamente para los propósitos de las pruebas, especialmente cuando se usa supertest que necesita una instancia activa de la aplicación.
+![image](https://github.com/user-attachments/assets/0dc43da5-b0af-4bfd-8f3b-89ab59ca42a5)
+![image](https://github.com/user-attachments/assets/1a23cf9c-64b0-4cec-b90a-b92195207bcf)
